@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="css/reboot.css" rel="stylesheet" type="text/css" />
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gabriela&display=swap" rel="stylesheet">
+  <title>Logo</title>
+</head>
+
+<body>
+  
+  <a class="login-position" href="login.html" id="open"></a>
+  <div class="login-name">
+    <div class="login-sign">Sign in</div>
+    <div class="list-text">
+      <label for="login-email">Email</label>
+      <input type="text" id="login-email" name="email" placeholder="Email...">
+    </div>
+    <div class="list-text">
+      <label for="pname">Password</label>
+      <input type="text" id="password" name="password" placeholder="Password...">
+    </div>
+    <div class="list-text">
+      <input type="checkbox" id="savepassword" name="save" value="save">
+      <label for="savepassword">Keep me signed in</label>
+    </div>
+    <div class="row">
+      <input type="button" value="Sign in"/>
+    </div>
+    <div class="create">
+      <a href="#forgot" class="row">Forgot password</a>
+    </div>
+    <div>
+      <a href="#create-account" class="row">Create an account</a>
+    </div>
+
+    <a class="close" title="close" href="#x"></a>
+  </div>
+  
+  <a class="login-position" href="login.html" id="forgot"></a>
+  <div class="login-name">
+    <div class="login-sign">Forgot password</div>
+    <div class="forgot-text">
+      Enter the email you used to register and we will send you instructions on how to reset your password.
+    </div>
+    <div class="list-text">
+      <label for="forgot-email">Email</label>
+      <input type="text" id="forgot-email" name="forgot-email" placeholder="Your email...">
+    </div>
+    <div class="row forgot-row">
+      <input type="button" value=" Send password"/>
+    </div>
+    <div class="forgot-remember">Did you remember the password?
+      <a href="#open" class="forgot-login">Log in</a>
+    </div>
+
+    <a class="close" title="close" href="#x"></a>
+  </div>
+  
+  <a class="login-position" href="login.html" id="create-account"></a>
+  <div class="login-name">
+    <div class="login-sign">Create an account</div>
+    <div class="list-text">
+      <label for="login-email">Email</label>
+      <input type="text" id="login-email" name="email" placeholder="Email...">
+    </div>
+    <div class="list-text">
+      <label for="forgot-email">Your Password</label>
+      <input type="text" id="forgot-text" name="password" placeholder="Password...">
+    </div>
+    <div class="list-text">
+      <label for="forgot-email">Password confirmation</label>
+      <input type="text" id="forgot-password" name="pass" placeholder="Password confirmation...">
+    </div>
+    <div class="row forgot-row">
+      <input type="button" value=" Create"/>
+    </div>
+    <div class="forgot-remember">Did you remember the password?
+      <a href="#open" class="forgot-login">Log in</a>
+    </div>
+
+    <a class="close" title="close" href="#x"></a>
+  </div>
+
+  <div class="wrapper">
+
+    <div class="header">
+      <div class="header-logo"></div>
+      <div class="header-logo-login">
+        <a href="#open" class="button-login">Login</a>
+
+      </div>
+
+    </div>
+
+    <div class="main">
+      <div class="main-left">
+        <div class="main-card"></div>
+      </div>
+      <div class="main-right">
+        <div class="main-title">Вітаємо у новій школі програмування "Future"!</div>
+        <div class="main-profession">Обери свій стиль життя: </div>
+        <div class="list-profession">Курс Front-end</div>
+        <div class="list-profession">Розробка web-проектів на Python</div>
+        <div class="list-profession">Інтернет-маркетинг</div>
+        <div class="list-profession">Тестування ПЗ (QA)</div>
+      </div>
+    </div>
+
+    <footer class="footer-main">
+      <div class="our-phone">+380970101011</div>
+      <div class="our-address">м.Рівне, вул Княгині Ольги 1</div>
+
+    </footer>
+
+  </div>
+
+
+</body>
+
+</html>
