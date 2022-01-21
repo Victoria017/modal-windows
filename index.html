@@ -16,7 +16,7 @@
 <body>
   
   <a class="login-position" href="login.html" id="open"></a>
-  <div class="login-name">
+  <form class="login-name" method="get">
     <div class="login-sign">Sign in</div>
     <div class="list-text">
       <label for="login-email">Email</label>
@@ -31,7 +31,7 @@
       <label for="savepassword">Keep me signed in</label>
     </div>
     <div class="row">
-      <input type="button" value="Sign in"/>
+      <input type="submit" value="Sign in"/>
     </div>
     <div class="create">
       <a href="#forgot" class="row">Forgot password</a>
@@ -41,10 +41,10 @@
     </div>
 
     <a class="close" title="close" href="#x"></a>
-  </div>
+  </form>
   
   <a class="login-position" href="login.html" id="forgot"></a>
-  <div class="login-name">
+  <form class="login-name" method="get">
     <div class="login-sign">Forgot password</div>
     <div class="forgot-text">
       Enter the email you used to register and we will send you instructions on how to reset your password.
@@ -54,17 +54,17 @@
       <input type="text" id="forgot-email" name="forgot-email" placeholder="Your email...">
     </div>
     <div class="row forgot-row">
-      <input type="button" value=" Send password"/>
+      <input type="submit" value=" Send password"/>
     </div>
     <div class="forgot-remember">Did you remember the password?
       <a href="#open" class="forgot-login">Log in</a>
     </div>
 
     <a class="close" title="close" href="#x"></a>
-  </div>
+  </form>
   
   <a class="login-position" href="login.html" id="create-account"></a>
-  <div class="login-name">
+  <form class="login-name" method="post">
     <div class="login-sign">Create an account</div>
     <div class="list-text">
       <label for="login-email">Email</label>
@@ -79,14 +79,14 @@
       <input type="text" id="forgot-password" name="pass" placeholder="Password confirmation...">
     </div>
     <div class="row forgot-row">
-      <input type="button" value=" Create"/>
+      <input type="submit" value=" Create"/>
     </div>
     <div class="forgot-remember">Did you remember the password?
       <a href="#open" class="forgot-login">Log in</a>
     </div>
 
     <a class="close" title="close" href="#x"></a>
-  </div>
+  </form>
 
   <div class="wrapper">
 
